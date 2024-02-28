@@ -26,6 +26,16 @@ header-includes:
  - '\makeatletter'
  - '\beamer@ignorenonframefalse'
  - '\makeatother'
+
+## Fonts
+mainfont: PT Serif
+romanfont: PT Serif
+sansfont: PT Sans
+monofont: PT Mono
+mainfontoptions: Ligatures=TeX
+romanfontoptions: Ligatures=TeX
+sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
+monofontoptions: Scale=MatchLowercase,Scale=0.9
 ---
 
 # Информация
@@ -79,18 +89,18 @@ header-includes:
 
 Создаю и настраиваю виртуальную машину. В качестве имени пишу: inneustroeva, Тип: Linux(Fedora ), Объем памяти 4096, Создаю новый вируальный жесткий диск, Тип файла: VDI, Динамический виртуальный жесткий диск и выделим под него 80 гигабайт.Машину создала, после добавила образ диска Федоры.
 
-![](Изображения/15.jpg){#fig:001 width=70%}
+![](image/15.jpg){#fig:001 width=70%}
 
 Устанавливаю имя для пользователя root и пароль  
 
-![](Изображения/5.jpg){#fig:002 width=70%}
+![](image/5.jpg){#fig:002 width=70%}
 
 Запускаю процесс установки Федоры
-![](Изображения/16.jpg){#fig:003 width=70%}
+![](image/16.jpg){#fig:003 width=70%}
 
 Так выглядит интерфейс Linux(Fedora )
 
-![](Изображения/1.jpg){#fig:004 width=70%}
+![](image/1.jpg){#fig:004 width=70%}
 
 ## Результаты
 
