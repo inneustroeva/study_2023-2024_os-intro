@@ -164,7 +164,7 @@ header-includes:
 *18*
 В файле /etc/selinux/config заменяю значение SELINUX=enforcing на значение SELINUX=permissive (рис. [-@fig:018]).
 
-![Отключение SELinux](image19.jpg){#fig:018 width=70%}
+![Отключение SELinux](image/19.jpg){#fig:018 width=70%}
 
 *19*
 Перегружаю виртуальную машину: reboot (рис. [-@fig:019]).
@@ -177,7 +177,7 @@ header-includes:
 ![Установка пакета DKMS ](image/21.jpg){#fig:020 width=70%}
 
 *21*
-В меню виртуальной машины подключила образ диска дополнений гостевой ОС. Подмонтировала диск:mount /dev/sr0 /media (рис. [-@fig:021]).
+В меню виртуальной машины подключила образ диска дополнений гостевой ОС. Подмонтировала диск: ```mount /dev/sr0 /media```  (рис. [-@fig:021]).
 
 ![Подмонтирование диска](image/22.jpg){#fig:021 width=70%}
 *22*
@@ -231,9 +231,9 @@ header-includes:
 ![Поиск версия ядра Linux (Linux version). ](image/32.jpg){#fig:031 width=70%} 
  
 *31*
-Выполняю домашнее задание и ищу Частота процессора (Detected Mhz processor): dmesg | grep -i "то, что ищем"  (рис. [-@fig:031]).
+Выполняю домашнее задание и ищу Частота процессора (Detected Mhz processor): dmesg | grep -i "то, что ищем"  (рис. [-@fig:032]).
 
-![Поиск частота процессора (Detected Mhz processor).](image/33.jpg){#fig:031 width=70%} 
+![Поиск частота процессора (Detected Mhz processor).](image/33.jpg){#fig:032 width=70%} 
   
  
  
