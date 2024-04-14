@@ -2,7 +2,7 @@
 ## Front matter
 lang: ru-RU
 title: Перезнтация по Лабораторной работе № 11
-subtitle: Текстовой редактор vi
+subtitle: Текстовой редактор Emacs.
 author:
   - Неустроева И.Н.
 institute:
